@@ -15,6 +15,7 @@ main {
     height: 100vh;
     width: 100%;   
     background-size: cover;
+   background-repeat: repeat-y;
 }
 .header-text {
     background-color: rgba(0, 0, 0, 0.4);
@@ -70,9 +71,108 @@ main {
     padding-bottom: 10px;
 }
 
+.aboutMe {
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid rgb(145, 103, 118);
+}
 
+.aboutHeader {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px rgb(138, 137, 137);
+}
 
+.aboutInfo {
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(51, 50, 50);
+}
 
+.portfolio {
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.folioHeader {
+    color: rgb(205, 148, 168);
+    text-shadow: 1px 1px rgb(209, 209, 209);
+}
+
+.foliotext {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: rgb(41, 40, 40);
+}
+
+.projects {
+    list-style-type: none;
+}
+
+.proLinks {
+    color: white;
+}
+
+.proLinks:link {
+text-decoration: none;
+}
+
+.proLinks:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.contacth2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px rgb(116, 115, 115);
+}
+
+.contactInfo {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.contactLi {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.linkedIN {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+    text-align: center;
+    text-shadow: 2px 2px darkgrey;
+}
+
+.mejlContact {
+    display: block;
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+    text-align: center;
+    text-shadow: 1px 1px darkgrey;
+}
 
 
 @media (min-width: 480px) {
@@ -182,6 +282,54 @@ main {
     #check {
         display: none;
     }
+
+    .aboutMe {
+        box-sizing: border-box;
+        position: absolute;
+        margin-top: 115px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 6px solid rgb(244, 180, 203);
+    }
+    
+    .aboutHeader {
+        padding-top: 10px;
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px rgb(138, 137, 137);
+        font-size: 40px;
+    }
+    
+    .aboutInfo {
+        font-size: 20px;
+        padding: 20px;
+        color: rgb(51, 50, 50);
+    }
+
+    .portfolio {
+        box-sizing: border-box;
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 10px;
+        padding: 20px;
+    }
+    
+    .folioHeader {
+        color: rgb(205, 148, 168);
+        text-shadow: 1px 1px rgb(209, 209, 209);
+        font-size: 40px;
+    }
+    
+    .foliotext {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        color: rgb(95, 94, 94);
+    }
+
+    .proLinks {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 780px) {
@@ -228,8 +376,6 @@ main {
         text-transform: uppercase;
         color: whitesmoke;
         font-size: 15px;
-       
-        
     }
     
     .nav a:hover {
@@ -293,7 +439,78 @@ main {
         display: none;
     }
     
-   
+    .aboutMe {
+        box-sizing: border-box;
+        position: absolute;
+        margin-top: 115px;
+        margin-left: 30px;
+        margin-right: 30px;
+        border: 8px solid rgb(244, 180, 203);
+    }
+    
+    .aboutHeader {
+        padding-top: 20px;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        text-shadow: 2px 2px rgb(138, 137, 137);
+    }
+    
+    .aboutInfo {
+        font-size: 25px;
+        padding: 40px;
+        color: rgb(51, 50, 50);
+    }
+    
+    .folioHeader {
+        color: rgb(205, 148, 168);
+        text-shadow: 1px 1px rgb(209, 209, 209);
+        font-size: 50px;
+    }
+    
+    .foliotext {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        font-size: 30px;
+        color: rgb(41, 40, 40);
+    }
+     
+    .proLinks {
+        color: white;
+        font-size: 40px;
+    }
+    
+    .contacth2 {
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-size: 50px;
+        text-shadow: 2px 2px rgb(116, 115, 115);
+    }
+    
+    .contactInfo {
+        font-size: 30px;
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+    }
+    
+    .contactLi {
+        list-style-type: none;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+    
+    .mejlContact {
+        display: block;
+        text-decoration: none;
+        color: rgb(224, 224, 224);
+        text-align: center;
+        text-shadow: 1px 1px darkgrey;
+        font-size: 30px;
+    } 
 }
 
 

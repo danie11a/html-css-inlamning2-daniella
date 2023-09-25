@@ -15,7 +15,7 @@ main {
     height: 100vh;
     width: 100%;   
     background-size: cover;
-   background-repeat: repeat-y;
+    background-repeat: repeat-y;
 }
 .header-text {
     background-color: rgba(0, 0, 0, 0.4);
@@ -110,7 +110,7 @@ main {
     padding-top: 10px;
     padding-bottom: 20px;
     font-size: 14px;
-    color: rgb(41, 40, 40);
+    color: white;
 }
 
 .projects {
@@ -333,6 +333,8 @@ text-decoration: none;
 }
 
 @media (min-width: 780px) {
+
+    
     .header-text {
         background-color: rgba(0, 0, 0, 0.4);
         box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.336);
@@ -470,7 +472,7 @@ text-decoration: none;
     
     .foliotext {
         padding-top: 20px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         font-size: 30px;
         color: rgb(41, 40, 40);
     }
